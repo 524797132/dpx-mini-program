@@ -8,13 +8,18 @@
             "Zhouwenming\\DpxMiniProgram\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Zhouwenming\\DpxMiniProgram\\Tests\\": "tests/"
+        }
+    },
     "authors": [
         {
             "name": "zhouwenming",
             "email": "524797132@qq.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
         "php": ">=7.0.0"
     }
