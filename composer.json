@@ -1,0 +1,19 @@
+{
+    "name": "zhouwenming/dpx-mini-program",
+    "description": "this is a mini program modules",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Zhouwenming\\DpxMiniProgram\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "zhouwenming",
+            "email": "524797132@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
