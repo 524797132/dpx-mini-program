@@ -2,8 +2,9 @@
 
 namespace Zhouwenming\DpxMiniProgram\Module\UserServer\Models;
 use Zhouwenming\DpxMiniProgram\Module\BaseLink\BaseModel;
+use Zhouwenming\DpxMiniProgram\Module\UserServer\Contracts\UserInterface;
 
-class UserModel extends BaseModel
+class UserModel extends BaseModel implements UserInterface
 {
     protected $table = 'user';
 
