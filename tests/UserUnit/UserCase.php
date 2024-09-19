@@ -7,7 +7,8 @@ class UserCase {
     public static function testFindUserByCondition()
     {
         $user = new User();
-        $user->findUserByCondition();
+        $userSource = $user->findUserPageByCondition();
+        print_r($userSource);
     }
 }
 
